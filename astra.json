@@ -1,0 +1,11 @@
+{
+  "name": "React Native Todo List + Astra DB + Netlify",
+  "description": "This is an example React Native Todo application using a DataStax AstraDB free tier database.",
+  "duration": "40 minutes",
+  "skillLevel": "Intermediate",
+  "githubUrl": "https://github.com/DataStax-Examples/todo-native-mobile",
+  "tags": [{ "name": "javascript" }],
+  "category": "apps",
+  "gitpodUrl": "https://gitpod.io/#https://github.com/DataStax-Examples/todo-native-mobile",
+  "priority": 1
+}

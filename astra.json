@@ -7,5 +7,6 @@
   "tags": [{ "name": "javascript" }],
   "category": "apps",
   "gitpodUrl": "https://gitpod.io/#https://github.com/DataStax-Examples/todo-native-mobile",
-  "priority": 1
+  "priority": 1,
+  "heroImage": "https://raw.githubusercontent.com/DataStax-Examples/todo-native-mobile/master/hero.png"
 }

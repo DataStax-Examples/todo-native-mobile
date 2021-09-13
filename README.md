@@ -8,7 +8,6 @@ In this workshop, you will learn how to convert the Todo web application from a 
 Before going all React Native, if you would like to learn more about React and create your first React app take a look at our previous Todo app workshop. [HERE](https://github.com/datastaxdevs/appdev-week1-todolist).
 
 This is an example React Native Todo application using a [DataStax AstraDB](https://dtsx.io/appdev-7-7) free tier database.
-<!--- ENDEXCLUDE --->
 
 **Mobile App on Android:**
 
@@ -22,6 +21,7 @@ This is an example React Native Todo application using a [DataStax AstraDB](http
 
 <img width="1680" alt="WebBrowserToDoApp" src="https://user-images.githubusercontent.com/82838476/129105493-4668143d-a923-437c-b19d-809fa7c55066.png">
 
+<!--- ENDEXCLUDE --->
 ## 🎯 Objectives
 * Implement a **React Native** Todo app using Expo
 * Learn about **React Native** components and how they are used to dynamically update the DOM with new information
@@ -29,6 +29,7 @@ This is an example React Native Todo application using a [DataStax AstraDB](http
 * Learn how **state** and **props** changes are used
 * Leverage Netlify and DataStax AstraDB
 
+<!--- STARTEXCLUDE --->
 ## ℹ️ Frequently asked questions ℹ️ 
 - *Are there any prerequites?*
 > * You will need a [GitHub account](https://github.com/)
@@ -78,17 +79,28 @@ That's it, you are done! Expect an email next week!
 
 ## Table of contents
 
-1. [Login or Register to AstraDB and Create Database](#1-login-or-register-to-astradb-and-create-database)
-2. [Create a Security Token](#2-create-a-security-token)
-3. [Deploy to Netlify](#3-deploy-to-netlify)
-4. [Access your GitHub repository and Launch GitPod IDE](#4-access-your-github-repository-and-launch-gitpod-ide)
-5. [Check Node and NPM versions in GitPod](#5-check-node-and-npm-versions-in-gitpod)
-6. [Register for an Expo Account in GitPod](#6-register-for-an-expo-account-in-gitpod)
-7. [Install Expo Mobile Application on Your Phone](#7-install-expo-mobile-application-on-your-phone)
-8. [Launch the Todo app](#8-launch-the-todo-app)
-9. [View Mobile App](#9-view-mobile-app)
-10. [Link to and Configure Netlify](#10-link-to-and-configure-netlify)
-11. [Deploy to Production](#11-deploy-to-production)
+- [React Native Todo List + Astra DB + Netlify 📒](#react-native-todo-list--astra-db--netlify-)
+  - [🎯 Objectives](#-objectives)
+  - [ℹ️ Frequently asked questions ℹ️](#ℹ️-frequently-asked-questions-ℹ️)
+  - [Materials for the Session](#materials-for-the-session)
+  - [Homework](#homework)
+- [Let's start](#lets-start)
+  - [Table of contents](#table-of-contents)
+  - [1. Login or Register to AstraDB and create database](#1-login-or-register-to-astradb-and-create-database)
+    - [✅ Step 1a: Click the button to login or register with Datastax. You can use your `Github`, `Google` accounts or register with an `email`.](#-step-1a-click-the-button-to-login-or-register-with-datastax-you-can-use-your-github-google-accounts-or-register-with-an-email)
+  - [2. Create a Security Token](#2-create-a-security-token)
+  - [3. Deploy to Netlify](#3-deploy-to-netlify)
+  - [4. Access your GitHub repository and Launch GitPod IDE](#4-access-your-github-repository-and-launch-gitpod-ide)
+      - [WAIT! Before moving on ensure you are working out of YOUR repository, not the datastaxdevs repository.](#wait-before-moving-on-ensure-you-are-working-out-of-your-repository-not-the-datastaxdevs-repository)
+  - [5. Check Node and NPM versions in GitPod](#5-check-node-and-npm-versions-in-gitpod)
+  - [6. Register for an Expo Account in GitPod](#6-register-for-an-expo-account-in-gitpod)
+  - [7. Install Expo Mobile Application on Your Phone](#7-install-expo-mobile-application-on-your-phone)
+  - [8. Launch the Todo app](#8-launch-the-todo-app)
+  - [9. View Mobile App](#9-view-mobile-app)
+  - [10. Link to and Configure Netlify](#10-link-to-and-configure-netlify)
+  - [11. Deploy to Production](#11-deploy-to-production)
+- [Need a refresher on React Basics?](#need-a-refresher-on-react-basics)
+    - [Things to Note:](#things-to-note)
 
 **Part 1: Create the Database**
 
@@ -436,13 +448,6 @@ After:
   ```
   netlify env:import .env
   ```
-
-<!--
-  * Will be used to allow you to execute `netlify open`
-  ```
-  netlify sites:list
-  ```
--->
 
 ## 11. Deploy to Production
 Now that you've hooked everything up, time to deploy to production.

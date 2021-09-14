@@ -16,7 +16,7 @@ tasks:
       npm install babel-plugin-inline-dotenv --legacy-peer-deps
 
     command: |
-      gp open README.md
+      gp open WORKSHOP.md
       echo "todonativemobileapp gitpod ready - LET'S DO THIS!"
 github:
   prebuilds:

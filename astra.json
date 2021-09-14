@@ -1,12 +1,12 @@
 {
   "name": "React Native Todo List, an Astra DB + Netlify Workshop",
-  "description": "This is an example React Native Todo application using a DataStax AstraDB free tier database.",
+  "description": "A workshop where you build a React Native Todo application using DataStax Astra DB.",
   "duration": "40 minutes",
   "skillLevel": "Intermediate",
   "githubUrl": "https://github.com/DataStax-Examples/todo-native-mobile",
-  "tags": [{ "name": "javascript" }],
+  "tags": [{ "name": "javascript" }, { "name": "workshop" }],
   "category": "apps",
   "gitpodUrl": "https://gitpod.io/#https://github.com/DataStax-Examples/todo-native-mobile",
-  "priority": 1,
+  "priority": 2,
   "heroImage": "https://raw.githubusercontent.com/DataStax-Examples/todo-native-mobile/master/hero.png"
 }

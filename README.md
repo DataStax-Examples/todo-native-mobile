@@ -26,6 +26,6 @@ This is an example React Native Todo application using a [DataStax AstraDB](http
 Create a [DataStax Astra account](https://dtsx.io/3nvKRsO) if you don't already have one.
 <!--- ENDEXCLUDE --->
 
-To build and play with this app, follow the workshop instructions that are located here: [https://github.com/DataStax-Examples/todo-native-mobile/blob/master/WORKSHOP.md](https://github.com/DataStax-Examples/todo-native-mobile/blob/master/README.md)
+To build and play with this app, follow the workshop instructions that are located here: [https://github.com/DataStax-Examples/todo-native-mobile/blob/master/WORKSHOP.md](https://github.com/DataStax-Examples/todo-native-mobile/blob/master/WORKSHOP.md)
 
 

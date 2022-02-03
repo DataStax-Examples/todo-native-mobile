@@ -4,7 +4,7 @@ exports.handler = async (event, context) => {
   const body = JSON.parse(event.body);
   event.body.key = "todo"
   
-  const res = await todos.post('/api/rest/v2/keyspaces/todos/rest', event.body);
+  const res = await todos.post('/api/rest/v2/keyspaces/sag_native_todos/sag_native_todos', event.body);
   if (res.status == 201) {
     return {
         statusCode: res.status,

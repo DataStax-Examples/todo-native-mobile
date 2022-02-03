@@ -4,7 +4,7 @@ exports.handler = async (event, context) => {
   const body = JSON.parse(event.body);
   const client = await getRestClient();
   try {
-    let delete_path = '/api/rest/v2/keyspaces/todos/rest/' + body.id
+    let delete_path = '/api/rest/v2/keyspaces/sag_native_todos/sag_native_todos/' + body.id
     const res = await client.delete(delete_path);
     return {
       statusCode: 204,

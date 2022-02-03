@@ -38,19 +38,19 @@ const getAstraRestClient = async () => {
     );
 
     // Check for the "rest" table. If it doesn't exist create it dynamically.
-    let tables = await astraRestClient.get('/api/rest/v2/schemas/keyspaces/todos/tables')
+    let tables = await astraRestClient.get('/api/rest/v2/schemas/keyspaces/sag_native_todos/tables')
     let results = tables.data.filter(entry => entry.name === "rest");
     if (!results.length) {
-      await createTable("rest")
+      await createTable("sag_native_todos")
     }
   }
   return astraRestClient;
 };
 
 async function createTable(name) {
-    let response = await astraRestClient.post('/api/rest/v2/schemas/keyspaces/todos/tables',
+    let response = await astraRestClient.post('/api/rest/v2/schemas/keyspaces/sag_native_todos/tables',
     {
-      "name": "rest",
+      "name": "sag_native_todos",
       "ifNotExists": true,
       "columnDefinitions": [
         {
@@ -80,7 +80,7 @@ async function createTable(name) {
       }
     })
     
-    response = await astraRestClient.post('/api/rest/v2/schemas/keyspaces/todos/tables/' + name + '/indexes',
+    response = await astraRestClient.post('/api/rest/v2/schemas/keyspaces/sag_native_todos/tables/' + name + '/indexes',
     {
       "column": "key",
       "name": "key_idx",

@@ -4,7 +4,7 @@ exports.handler = async (event, context) => {
   const client = await getClient();
   let res;
   try {
-    res = await client.get('/api/rest/v2/keyspaces/todos/rest?where=\{"key":\{"$eq":\"rest"\}\}')
+    res = await client.get('/api/rest/v2/keyspaces/sag_native_todos/sag_native_todos?where=\{"key":\{"$eq":\"rest"\}\}')
     const formattedTodos = Object.keys(res.data).map((item) => res.data[item]);
     return {
       headers: '{Content-Type: application/json}',

@@ -120,7 +120,7 @@ _Make sure to chose a password with minimum 8 characters, containing upper and l
 |Field| Value|
 |---|---|
 |**database name**| `todos_native_workshop_db` |
-|**keypace**| `todos` |
+|**keypace**| `sag_native_todos` |
 |**Cloud Provider**| *Use the one you like, click a cloud provider logo,  pick an Area in the list and finally pick a region.* |
 
 _You can technically use whatever you want and update the code to reflect the keyspace. This is really to get you on a happy path for the first run._
@@ -400,7 +400,7 @@ See examples of what your finished product should look like:
 Finally, run the following commands: 
 
 ```
-use todos;
+use sag_native_todos;
 ```
 
 ```
@@ -408,7 +408,7 @@ describe tables;
 ```
 
 ```
-select * from rest;
+select * from sag_native_todos;
 ```
 
 The output should look like the following:

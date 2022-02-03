@@ -5,7 +5,7 @@ exports.handler = async (event, context) => {
   let body = JSON.parse(event.body);
 
   try {
-    let path = '/api/rest/v2/keyspaces/todos/rest/' + body.id;
+    let path = '/api/rest/v2/keyspaces/sag_native_todos/sag_native_todos/' + body.id;
     body = {"text":body.text, "completed":body.completed}
     const res = await todos.put(path, body);
     return {
